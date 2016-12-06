@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*зробить зміннi uppercase для Strict, font-family: "Lato Regular", sans-serif;*/
+/* line 11, ../sass/screen.scss */
+body {
+  margin: auto;
+  font: 100% "Lato Regular", sans-serif;
+  background: #f6f9f9;
+}
+
+/* line 16, ../sass/screen.scss */
+header {
+  width: inherit;
+  height: 100px;
+}
+/* line 20, ../sass/screen.scss */
+header h1 {
+  padding: 31px 0 31px 252px;
+}
+
+/* line 24, ../sass/screen.scss */
+.headline {
+  width: inherit;
+  height: 800px;
+  background-image: url("../img/Image.png");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+/* line 30, ../sass/screen.scss */
+.headline h2 {
+  display: inline-block;
+  width: 600px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 82px;
+  color: #fff;
+  padding-top: 223px;
+  padding-bottom: 35px;
+  border-bottom: 2px solid #15a4fa;
+}
+/* line 41, ../sass/screen.scss */
+.headline p {
+  padding-top: 40px;
+  padding-bottom: 63px;
+  font-size: 18px;
+  color: #fff;
+}
+/* line 47, ../sass/screen.scss */
+.headline span {
+  text-transform: uppercase;
+}
+/* line 50, ../sass/screen.scss */
+.headline a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #15a4fa;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+/* line 59, ../sass/screen.scss */
+.about-design {
+  text-align: center;
+}
+/* line 61, ../sass/screen.scss */
+.about-design h3 {
+  color: #2d3950;
+}
+/* line 64, ../sass/screen.scss */
+.about-design p {
+  color: #9f9f9f;
+}
+/* line 67, ../sass/screen.scss */
+.about-design ul {
+  display: inline-block;
+  width: inherit;
+  height: 340px;
+  background: #fff;
+}

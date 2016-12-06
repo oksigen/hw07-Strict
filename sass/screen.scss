@@ -1,0 +1,77 @@
+﻿/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+/*зробить зміннi uppercase для Strict, font-family: "Lato Regular", sans-serif;*/
+$font-stack: "Lato Regular", sans-serif;
+$primary-color: #fff;
+$name-uppercase: uppercase;
+body {
+	margin: auto;
+	font: 100% $font-stack;
+	background: #f6f9f9;
+}
+header {
+	width: inherit;
+	height: 100px;
+
+	h1 {
+		padding: 31px 0 31px 252px;
+	}
+}
+.headline {
+	width: inherit;
+  height: 800px;
+	background-image: url("../img/Image.png");
+	background-repeat: no-repeat;
+	text-align: center;
+	h2 {
+		display: inline-block;
+		width: 600px;
+		text-transform: $name-uppercase;
+		font-weight: bold;
+		font-size: 82px;
+		color: $primary-color;
+		padding-top: 223px;
+		padding-bottom: 35px;
+		border-bottom: 2px solid #15a4fa;
+	}
+	p {
+		padding-top: 40px;
+		padding-bottom: 63px;
+		font-size: 18px;
+		color: $primary-color;
+	}
+	span {
+		text-transform: $name-uppercase;
+	}
+	a {
+		text-decoration: none;
+		font-size: 18px;
+		color: $primary-color;
+		border: 1px solid #15a4fa;
+		border-radius: 3px;
+		padding: 10px 20px;
+	}
+}
+.about-design {
+	text-align: center;
+	h3 {
+		color: #2d3950;
+	}
+	p {
+		color: #9f9f9f;
+	}
+	ul {
+		display: inline-block;
+		width: inherit;
+		height: 340px;
+		background: #fff;
+
+		li {
+
+		}
+	}
+}
