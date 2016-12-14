@@ -23,9 +23,10 @@ header {
 }
 .headline {
 	width: inherit;
-  height: 800px;
+	height: 800px;
 	background-image: url("../img/Image.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 	text-align: center;
 	h2 {
 		display: inline-block;
@@ -58,6 +59,9 @@ header {
 }
 .about-design {
 	text-align: center;
+	section {
+		height: 340px;
+	}
 	h3 {
 		color: #2d3950;
 	}
@@ -65,13 +69,15 @@ header {
 		color: #9f9f9f;
 	}
 	ul {
-		display: inline-block;
+		display: block;
 		width: inherit;
 		height: 340px;
 		background: #fff;
 
 		li {
-
+			width: 300px;
+			display: inline-block;
+			margin: 10px;
 		}
 	}
 }
